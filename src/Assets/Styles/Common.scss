@@ -176,6 +176,28 @@ body {
     background-color: $clr_black_op_85;
 }
 
+.symbol {
+    height: $px_32;
+    width: $px_32;
+    border: $px_1 solid $clr_white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+
+    span {
+        font-size: $px_14;
+        transform: rotate(-45deg);
+    }
+
+    &:hover {
+        border-color: $clr_theme;
+        background-color: $clr_theme_op_1;
+        color: $clr_theme;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .button:hover {
         color: $clr_white;
@@ -184,6 +206,14 @@ body {
 
         &::before {
             height: 0;
+        }
+    }
+
+    .symbol {
+        &:hover {
+            color: $clr_white;
+            border-color: $clr_white;
+            background-color: $clr_black;
         }
     }
 }

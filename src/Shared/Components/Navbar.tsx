@@ -24,7 +24,7 @@ const Navbar = () => {
         <Fragment>
             <div className={`navbar ${!isTopScroll ? 'active' : ''}`}>
                 <div className="right_side">
-                    <h3 className="name">NIKESH KHICHADIYA</h3>
+                    <p className="symbol"><span>N K</span></p>
                 </div>
                 <div className="left_side">
                     <ul className="nav_list desktop">
