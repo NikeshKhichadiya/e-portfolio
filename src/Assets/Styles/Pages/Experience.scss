@@ -1,0 +1,111 @@
+#experience {
+    padding-top: $px_80;
+
+    .experience_data {
+        display: flex;
+        flex-direction: column;
+        gap: $px_28;
+        width: 75%;
+        margin: auto;
+
+        .experience_data_box {
+            padding: $px_16;
+            border-radius: $px_10;
+            box-shadow: 0 0 $px_20 calc(var(--px_4) * -1) $clr_theme;
+            display: flex;
+            flex-direction: column;
+            gap: $px_12;
+
+            .company_name_and_time_box {
+                display: flex;
+                justify-content: space-between;
+
+                &>* {
+                    font-weight: normal;
+                    font-family: source-pro-semibold;
+                    font-size: $px_20;
+                    line-height: 2;
+                }
+            }
+
+            .details {
+                display: flex;
+                gap: $px_6;
+
+                &.boxes {
+                    flex-direction: column;
+                }
+
+                .tool_box {
+                    font-size: $px_14;
+                    letter-spacing: $px_1;
+                    background-color: $clr_theme_op_1;
+                    border-radius: $px_8;
+                    padding: $px_10 $px_16;
+                    text-transform: uppercase;
+                    border: $px_1 solid $clr_theme;
+                }
+
+                &>* {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: $px_8;
+                }
+
+                b {
+                    font-weight: normal;
+                    min-width: fit-content;
+                    font-family: source-pro-semibold;
+                    color: $clr_theme;
+
+                    span {
+                        color: $clr_white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #experience {
+        padding-top: $px_60;
+
+        .experience_data {
+            width: 100%;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #experience {
+
+        .experience_data {
+            .experience_data_box {
+                gap: $px_16;
+
+                .company_name_and_time_box {
+                    flex-direction: column;
+                }
+
+                .details {
+                    flex-direction: column;
+                    gap: 0;
+
+                    b {
+                        line-height: 2;
+                    }
+
+                    .tool_box {
+                        font-size: $px_12;
+                        padding: $px_8 $px_14;
+                    }
+                }
+            }
+        }
+    }
+
+}

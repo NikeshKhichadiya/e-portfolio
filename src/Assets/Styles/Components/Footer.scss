@@ -1,0 +1,27 @@
+.footer {
+    padding: $px_40 $px_80;
+    background-color: $clr_black;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    &>* {
+        font-size: $px_18;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding: $px_40;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: $px_8;
+        padding: $px_20;
+    }
+}

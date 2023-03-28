@@ -1,0 +1,184 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - calc(var(--px_40) + var(--px_28)));
+    padding: $px_24 0;
+    position: relative;
+
+    .name {
+        font-size: $px_70;
+        letter-spacing: 2px;
+        margin-bottom: $px_48;
+        font-family: source-pro-semibold;
+        text-align: center;
+    }
+
+    .description {
+        text-align: center;
+        max-width: 80%;
+        font-size: $px_24;
+        line-height: 1.6;
+        margin-bottom: $px_48;
+
+        strong {
+            font-family: source-pro-semibold;
+            color: $clr_theme;
+            text-transform: capitalize;
+        }
+    }
+
+    .down_arrow_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: $px_16;
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+        text-decoration: none;
+        color: $clr_white;
+
+        .text {
+            margin-bottom: $px_6;
+            font-size: $px_14;
+        }
+
+        svg,
+        path {
+            fill: $clr_white;
+            stroke: $clr_white;
+            height: $px_14;
+            width: $px_14;
+        }
+
+        svg {
+            animation: topDonwArrow 1.25s infinite;
+        }
+
+        @keyframes topDonwArrow {
+
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(5px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .home {
+        padding-top: $px_60;
+
+        .name {
+            font-size: $px_100;
+            margin-bottom: $px_60;
+        }
+
+        .description {
+            font-size: $px_32;
+            margin-bottom: $px_60;
+        }
+
+        p.button {
+            font-size: $px_24;
+            padding: $px_20 $px_32;
+        }
+
+        .down_arrow_box {
+
+            .text {
+                font-size: $px_20;
+            }
+
+            svg,
+            path {
+                width: $px_20;
+                height: $px_20;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home {
+
+        .name {
+            font-size: $px_75;
+            margin-bottom: $px_40;
+        }
+
+        .description {
+            font-size: $px_28;
+            margin-bottom: $px_40;
+        }
+
+        p.button {
+            font-size: $px_16;
+            padding: $px_16 $px_28;
+        }
+
+        .down_arrow_box {
+
+            .text {
+                font-size: $px_16;
+            }
+
+            svg,
+            path {
+                width: $px_16;
+                height: $px_16;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .home {
+
+        .name {
+            font-size: $px_50;
+            margin-bottom: $px_28;
+        }
+
+        .description {
+            font-size: $px_24;
+            margin-bottom: $px_28;
+            max-width: 100%;
+        }
+
+        p.button {
+            font-size: $px_16;
+            padding: $px_16 $px_28;
+        }
+
+        .down_arrow_box {
+
+            .text {
+                font-size: $px_16;
+            }
+
+            svg,
+            path {
+                width: $px_16;
+                height: $px_16;
+            }
+
+        }
+    }
+}

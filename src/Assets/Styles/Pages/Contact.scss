@@ -1,0 +1,30 @@
+#contact {
+    padding-top: $px_80;
+    padding-bottom: $px_70;
+
+    .section_heading_box {
+        .description {
+            b {
+                color: $clr_theme;
+                font-family: source-pro-semibold;
+                font-weight: normal;
+            }
+
+            a {
+                color: $clr_theme;
+            }
+        }
+    }
+
+    .mail_button {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #contact {
+        padding-top: $px_60;
+        padding-bottom: $px_60;
+        min-height: unset;
+    }
+}

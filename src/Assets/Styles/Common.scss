@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: source-pro-regular;
+    src: url('../Fonts/SourceSansPro-Regular.woff') format('woff'), url('./../Fonts/SourceSansPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: source-pro-black;
+    src: url('../Fonts/SourceSansPro-Black.woff') format('woff'), url('./../Fonts/SourceSansPro-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: source-pro-bold;
+    src: url('../Fonts/SourceSansPro-Bold.woff') format('woff'), url('./../Fonts/SourceSansPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: source-pro-semibold;
+    src: url('../Fonts/SourceSansPro-SemiBold.woff') format('woff'), url('./../Fonts/SourceSansPro-SemiBold.woff2') format('woff2');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: source-pro-regular;
+    font-weight: normal;
+    color: $clr_white;
+    font-size: $px_16;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: $px_6;
+    height: $px_6;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $clr_black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $clr_theme;
+    border-radius: $px_10;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $clr_theme;
+}
+
+.fallback {
+    height: 100vh;
+    width: 100vw;
+    background-color: $clr_black;
+    display: block;
+}
+
+.button {
+    padding: $px_16 $px_28;
+    outline: none;
+    border: $px_1 solid $clr_white;
+    color: $clr_white;
+    background-color: $clr_black;
+    border-radius: $px_4;
+    cursor: pointer;
+    font-size: $px_16;
+    transition: all 0.3s ease;
+    letter-spacing: $px_1;
+    text-transform: uppercase;
+    font-family: source-pro-semibold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $clr_white;
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    width: fit-content;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        background: $clr_theme_op_1;
+        width: 100%;
+        height: 0;
+        transition: all .3s ease;
+    }
+
+    &:hover {
+        color: $clr_theme;
+        border-color: $clr_theme;
+        background-color: $clr_theme_op_1;
+
+        &::before {
+            height: 100%;
+        }
+    }
+
+}
+
+.section_heading_box {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: $px_60;
+
+    .section_heading {
+        font-size: $px_48;
+        letter-spacing: $px_2;
+        text-transform: uppercase;
+        margin-bottom: $px_16;
+        font-family: source-pro-semibold;
+    }
+
+    .line {
+        height: $px_4;
+        width: $px_32;
+        background-color: $clr_theme;
+        border-radius: $px_4;
+        margin-bottom: $px_16;
+    }
+
+    .description {
+        font-size: $px_22;
+        text-align: center;
+        line-height: 1.5;
+        width: 70%;
+    }
+
+}
+
+.sub_heading {
+    font-family: source-pro-semibold;
+    font-size: $px_28;
+    margin-bottom: $px_28;
+}
+
+.button_box {
+    display: flex;
+    gap: $px_16;
+    flex-wrap: wrap;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: $clr_theme;
+    font-size: $px_24;
+}
+
+.stroke_text {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: $clr_white;
+    -webkit-text-stroke-width: $px_1;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $clr_black_op_85;
+}
+
+@media only screen and (max-width: 1200px) {
+    .button:hover {
+        color: $clr_white;
+        border-color: $clr_white;
+        background-color: $clr_black;
+
+        &::before {
+            height: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section_heading_box {
+        margin-bottom: $px_24;
+
+        .section_heading {
+            font-size: $px_40;
+        }
+
+        .description {
+            font-size: $px_20;
+            width: 85%;
+        }
+    }
+
+    .button {
+        font-size: $px_14;
+        padding: $px_14 $px_24;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .section_heading_box {
+        .description {
+            width: 100%;
+        }
+    }
+}

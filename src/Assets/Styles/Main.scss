@@ -1,0 +1,25 @@
+// Variables
+@import './_variables.scss';
+
+// Library
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+
+// Common
+@import './Common.scss';
+
+// Components
+@import './Components/Navbar.scss';
+@import './Components/SocialMedia.scss';
+@import './Components/Footer.scss';
+
+// Layout
+@import './Layout.scss';
+
+// Pages
+@import './Pages/Home.scss';
+@import './Pages/About.scss';
+@import './Pages/Work.scss';
+@import './Pages/ProjectDetails.scss';
+@import './Pages/Experience.scss';
+@import './Pages/Contact.scss';
