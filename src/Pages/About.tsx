@@ -1,4 +1,5 @@
 import { useDispatch } from "react-redux"
+import { pdfData } from "../Helper/Resume Export";
 import { setRouterId } from "../Store/navSlice";
 
 const skills = ['Html', 'css', 'javascript', 'typescript', 'scss', 'react', 'angular', 'node', 'express', 'mongo db', 'firebase', 'git', 'git hub', 'git lab', 'responsive design', 'no sql', 'database design', 'database query']
@@ -36,7 +37,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="button_box desktop">
-                        <a href="/Resume.pdf" download={true} className="button">Resume</a>
+                        <a href="/Resume.pdf" target={"_blank"} className="button">Resume</a>
                         <p onClick={() => dispatch(setRouterId('contact'))} className="button">Contact Me</p>
                     </div>
                 </div>
@@ -88,11 +89,12 @@ const About = () => {
                 </div>
             </div>
             <div className="button_box mobile">
-                <a href="/Resume.pdf" download={true} className="button">Resume</a>
+                <a href={pdfData.resume} download={true} className="button">Resume</a>
                 <p onClick={() => dispatch(setRouterId('contact'))} className="button">Contact Me</p>
             </div>
         </div>
     )
+
 }
 
 export default About;
