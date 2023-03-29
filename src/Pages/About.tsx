@@ -29,7 +29,7 @@ const About = () => {
                             Fast-forward to today and I've done and I've worked on, many projects such as an E-Commerce website, E-Portfolio, Templates, Admin-Panels, Corporate Website, etc.
                         </p>
                         <p className="description">
-                            Feel free to Connect or Follow me on my <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nikesh-khichadiya-45611917a/">Linkedin</a> where I post useful content related to Web Development and Programming, My education, My experience, and My Skills.
+                            Feel free to Connect or Follow me on my <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nikesh-khichadiya-45611917a/">Linkedin</a> where I post information about my experiences like Web Development and Programming and, My education and My Skills.
                         </p>
                         <p className="description">
                             I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
