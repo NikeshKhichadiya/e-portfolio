@@ -34,6 +34,9 @@ const About = () => {
                         <p className="description">
                             I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
                         </p>
+                        <p className="description">
+                            <a href="https://www.youtube.com/watch?v=lN5j_mGcsnI&ab_channel=NikeshKhichadiya">Here</a> you can find more information about me.
+                        </p>
                     </div>
                     <div className="button_box desktop">
                         <a href={'./Resume.pdf'} download={true} className="button">Resume</a>
@@ -62,7 +65,7 @@ const About = () => {
                         <div className="education_box">
                             <div className="education_detail_box">
                                 <h4 className="collage_name">
-                                    <strong>Institute</strong> : Gandhinagar Institute of Technology
+                                    <strong>Institute</strong> : Gandhinagar Institute of Technology - India
                                 </h4>
                                 <h4 className="year">
                                     <strong>Year</strong> : 2016 - 2020
@@ -73,7 +76,7 @@ const About = () => {
                             </div>
                             <div className="education_detail_box">
                                 <h4 className="collage_name">
-                                    <strong>Institute</strong> : New York Institute of Technology
+                                    <strong>Institute</strong> : New York Institute of Technology - Canada
                                 </h4>
                                 <h4 className="year">
                                     <strong>Year</strong> : 2023 - Present
