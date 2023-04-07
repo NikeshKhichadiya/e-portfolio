@@ -18,7 +18,7 @@ const Experience = () => {
                 <h1 className="section_heading">Experience</h1>
                 <div className="line"></div>
                 <p className="description">
-                    Here you will find my previous employment history as a web application developer, where I have learned many things and gained knowledge.
+                    Here you will find my previous employment history as a web application developer and some personal projects experience, where I have learned many things and gained knowledge.
                 </p>
             </div>
 

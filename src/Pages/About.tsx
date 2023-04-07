@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { setRouterId } from "../Store/navSlice";
 
-const skills = ['Html', 'css', 'javascript', 'typescript', 'scss', 'react', 'angular', 'node', 'express', 'mongo db', 'firebase', 'git', 'git hub', 'git lab', 'responsive design', 'no sql', 'database design', 'database query']
+const skills = ['Html', 'css', 'javascript', 'typescript', 'scss', 'react', 'angular', 'node', 'express', 'mongo db', 'firebase', 'git', 'git hub', 'git lab', 'responsive design', 'no sql', 'database design', 'database query'];
 
 const About = () => {
 
@@ -23,7 +23,7 @@ const About = () => {
                     </h3>
                     <div className="description_box">
                         <p className="description">
-                            Hello! My name is Nikesh Khichadiya and I enjoy creating <strong>Web-Applications</strong> that live on the internet. My interest in web development started back in 2020 when I decided to try converting wireframes into code which taught me a lot about <strong>HTML, CSS</strong> and <strong>JAVASCRIPT!</strong>
+                            Hello! My name is Nikesh Khichadiya and I enjoy creating <strong>Web-Applications</strong> that live on the internet. My interest in web development started back in 2019 when I decided to try converting wireframes into code which taught me a lot about <strong>HTML, CSS</strong> and <strong>JAVASCRIPT!</strong>
                         </p>
                         <p className="description">
                             Fast-forward to today and I've done and I've worked on, many projects such as an E-Commerce website, E-Portfolio, Templates, Admin-Panels, Corporate Website, etc.
@@ -33,9 +33,6 @@ const About = () => {
                         </p>
                         <p className="description">
                             I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
-                        </p>
-                        <p className="description">
-                            <a href="https://www.youtube.com/watch?v=lN5j_mGcsnI&ab_channel=NikeshKhichadiya">Here</a> you can find more information about me.
                         </p>
                     </div>
                     <div className="button_box desktop">
