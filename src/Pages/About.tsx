@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { setRouterId } from "../Store/navSlice";
 
-const skills = ['Html', 'css', 'javascript', 'typescript', 'scss', 'react', 'angular', 'node', 'express', 'mongo db', 'firebase', 'git', 'git hub', 'git lab', 'responsive design', 'no sql', 'database design', 'database query'];
+const skills = ['Html', 'css', 'javascript', 'typescript', 'scss', 'react', 'angular', 'node', 'express', 'mongo db', 'redux', 'ngrx', 'firebase', 'git', 'git hub', 'git lab', 'responsive design', 'no sql', 'database design', 'database query'];
 
 const About = () => {
 
