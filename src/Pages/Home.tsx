@@ -11,8 +11,7 @@ const Home = () => {
                 HII, I'M NIKESH KHICHADIYA
             </h2>
             <p className="description">
-                A professional <strong>Full-Stack Developer</strong> who can work on both the <strong>Frontend</strong> and <strong>backend</strong> of a Web Application
-                that leads to the success of the overall product
+                A passionate and dedicated <strong>Full-stack Developer</strong> with a keen interest in crafting seamless, innovative, and user-centric digital solutions. With more than <strong>2 years</strong> of experience in the field, I thrive on bringing ideas to life through clean, efficient, and scalable code.
             </p>
             <p className="button" onClick={() => dispatch(setRouterId('work'))}>WORK</p>
             <div onClick={() => dispatch(setRouterId('about'))} className="down_arrow_box">
