@@ -163,8 +163,9 @@ body {
 
 .stroke_text {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-color: $clr_white;
-    -webkit-text-stroke-width: $px_1;
+    -webkit-text-stroke-color: $clr_black;
+    -webkit-text-stroke-width: $px_2;
+    text-shadow: $clr_theme 0 0 $px_6;
 }
 
 .backdrop {
