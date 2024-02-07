@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 1200px) {
     .home {
-        padding-top: $px_60;
+        padding-top: $px_70;
 
         .name {
             font-size: $px_100;
@@ -116,6 +116,7 @@
 
 @media only screen and (max-width: 768px) {
     .home {
+        padding-top: $px_24;
 
         .name {
             font-size: $px_75;
@@ -149,16 +150,21 @@
 }
 
 @media only screen and (max-width: 576px) {
+    .stroke_text {
+        -webkit-text-stroke-width: $px_1;
+        text-shadow: $clr_theme 0 0 $px_4;
+    }
+
     .home {
 
         .name {
-            font-size: $px_50;
-            margin-bottom: $px_28;
+            font-size: $px_40;
+            margin-bottom: $px_32;
         }
 
         .description {
-            font-size: $px_24;
-            margin-bottom: $px_28;
+            font-size: $px_16;
+            margin-bottom: $px_32;
             max-width: 100%;
         }
 
