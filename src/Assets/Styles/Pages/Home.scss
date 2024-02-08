@@ -38,6 +38,7 @@
         bottom: $px_16;
         left: 50%;
         transform: translateX(-50%);
+        height: max-content;
         cursor: pointer;
         text-decoration: none;
         color: $clr_white;

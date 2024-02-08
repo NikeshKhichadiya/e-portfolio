@@ -14,7 +14,9 @@ const Home = () => {
                 A passionate and dedicated <strong>Full-stack Developer</strong> with a keen interest in crafting seamless, innovative, and user-centric digital solutions. With more than <strong>2 years</strong> of experience in the field, I thrive on bringing ideas to life through clean, efficient, and scalable code.
             </p>
             <p className="button" onClick={() => dispatch(setRouterId('work'))}>WORK</p>
-            <div onClick={() => dispatch(setRouterId('about'))} className="down_arrow_box">
+            <div onClick={() => dispatch(setRouterId('about'))}
+                style={{ bottom: window.screen.height - window.screen.availHeight < 32 && window.screen.height - window.screen.availHeight > 16 ? window.screen.height - window.screen.availHeight : 32 }}
+                className="down_arrow_box">
                 <p className="text">About Me</p>
                 <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 330 330">
