@@ -15,12 +15,12 @@ export const employmentData = {
         "technologies": ["React", "Angular", "Redux", "Ngrx", "Bootstrap", "Material UI", "Primefaces", "Git"],
         "programming_languages": ["Html", "Css", "Scss", "Javascript", "Typescript"]
     },
-    'Freelancing Work': {
-        "company_name": "Freelancing Work",
-        "time_period": "May 2019 to Present",
-        "position": "Full-stack Developer",
-        "work": "As a Freelancer and Full-stack developer, my responsibilities include daily meetings with clients, talking about progress on projects, meeting with UX/UI developers regarding project requirements and progress, developing REST-APIS on a server and user interface on the front-end side, database design, and development.",
-        "technologies": ["React", "Angular", "Node", "Express", "Mongo DB", "Redux", "Ngrx", "AWS", "Firebase", "Bootstrap", "Material UI", "Primefaces", "Tailwind css", "Git"],
-        "programming_languages": ["Html", "Css", "Scss", "Javascript", "Typescript"]
+    'Satva Infotech': {
+        "company_name": "Satva Infotech – India",
+        "time_period": "January 2020 - July 2020",
+        "position": "Front-end Developer and Designer Intern",
+        "work": "I used HTML, CSS, and JavaScript to turn design ideas into attractive web pages. I also helped with research, tested usability, and made interactive prototypes. Plus, I worked closely with different teams to blend designs smoothly, ensuring good communication.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React", "Angular", "Redux", "Bootstrap", "Material UI"],
+        "programming_languages": ["HTML", "CSS", "JavaScript"]
     },
 }

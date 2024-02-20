@@ -23,7 +23,7 @@ const About = () => {
                     </h3>
                     <div className="description_box">
                         <p className="description">
-                            Hello! My name is Nikesh Khichadiya and I enjoy creating <strong>Web-Applications</strong> that live on the internet. My interest in web development started back in 2019 when I decided to try converting wireframes into code which taught me a lot about <strong>HTML, CSS</strong> and <strong>JAVASCRIPT!</strong>
+                            Hello! My name is Nikesh Khichadiya and I enjoy creating <strong>Web-Applications</strong> that live on the internet. My interest in web development started back in 2020 when I decided to try converting wireframes into code which taught me a lot about <strong>HTML, CSS</strong> and <strong>JAVASCRIPT!</strong>
                         </p>
                         <p className="description">
                             Fast-forward to today and I've done and I've worked on, many projects such as an E-Commerce website, E-Portfolio, Templates, Admin-Panels, Corporate Website, etc.
