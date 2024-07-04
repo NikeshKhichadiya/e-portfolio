@@ -65,7 +65,7 @@ const About = () => {
                                     <strong>Institute</strong> : Gandhinagar Institute of Technology - India
                                 </h4>
                                 <h4 className="year">
-                                    <strong>Year</strong> : 2016 - 2020
+                                    <strong>Year</strong> : July 2016 - Aug 2020
                                 </h4>
                                 <h4 className="course_name">
                                     <strong>Course</strong> : Bachelor's in Information Technology
@@ -76,7 +76,7 @@ const About = () => {
                                     <strong>Institute</strong> : New York Institute of Technology - Canada
                                 </h4>
                                 <h4 className="year">
-                                    <strong>Year</strong> : 2023 - Present
+                                    <strong>Year</strong> : Jan 2023 - July 2024
                                 </h4>
                                 <h4 className="course_name">
                                     <strong>Course</strong> : M.S. in CyberSecurity
