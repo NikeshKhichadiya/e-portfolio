@@ -36,7 +36,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="button_box desktop">
-                        <a href={'./Resume.pdf'} target="_blank" rel="noreferrer" className="button">Resume</a>
+                        {/* <a href={'./Resume.pdf'} target="_blank" rel="noreferrer" className="button">Resume</a> */}
                         <p onClick={() => dispatch(setRouterId('contact'))} className="button">Contact Me</p>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const About = () => {
                 </div>
             </div>
             <div className="button_box mobile">
-                <a href={'./Resume.pdf'} download={true} className="button">Resume</a>
+                {/* <a href={'./Resume.pdf'} download={true} className="button">Resume</a> */}
                 <p onClick={() => dispatch(setRouterId('contact'))} className="button">Contact Me</p>
             </div>
         </div>
