@@ -1,6 +1,6 @@
 export const employmentData = {
     "CraftSync Technologies": {
-        "company_name": "CraftSync Technologies",
+        "company_name": "CraftSync Technologies - Canada",
         "time_period": "January 2023 to Current",
         "position": "Full-stack Developer",
         "work": [
@@ -17,7 +17,7 @@ export const employmentData = {
         "programming_languages": ["JavaScript", "TypeScript", "Python", "SQL"]
     },
     "Sun Micro Solution": {
-        "company_name": "Sun Micro Solution",
+        "company_name": "Sun Micro Solution - India",
         "time_period": "August 2021 to November 2022",
         "position": "Full-stack Developer",
         "work": [
@@ -33,7 +33,7 @@ export const employmentData = {
         "programming_languages": ["JavaScript", "TypeScript", "HTML", "CSS", "SCSS"]
     },
     "Logictrix Infotech": {
-        "company_name": "Logictrix Infotech",
+        "company_name": "Logictrix Infotech - India",
         "time_period": "July 2020 to August 2021",
         "position": "Front-end Developer",
         "work": [

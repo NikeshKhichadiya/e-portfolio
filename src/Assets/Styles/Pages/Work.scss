@@ -66,7 +66,7 @@
                     background-color: $clr_theme;
                     mix-blend-mode: multiply;
                     transition: all 0.3s ease;
-                    border-radius: 10px;
+                    border-radius: $px_10;
                 }
 
                 &:hover {
