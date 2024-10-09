@@ -5,6 +5,8 @@
         display: flex;
         flex-direction: column;
         gap: $px_24;
+        max-height: 100vh;
+        overflow: auto;
 
         .project {
             display: flex;
@@ -64,6 +66,7 @@
                     background-color: $clr_theme;
                     mix-blend-mode: multiply;
                     transition: all 0.3s ease;
+                    border-radius: 10px;
                 }
 
                 &:hover {
@@ -126,6 +129,7 @@
         .porject_box {
             .project {
                 width: 100%;
+                margin-right: unset !important;
 
                 .imegesBox {
                     &::after {

@@ -16,6 +16,7 @@ const ProjectDetail = () => {
         const data = getProjectData(typeof (params.id) === 'string' ? params.id : '');
         if (!!data && data !== 'No data found') setData(data);
         else navigate('/');
+        console.log(Array.isArray(data.roles_and_responsibilities))
 
     }, [params, navigate]);
 
@@ -56,13 +57,13 @@ const ProjectDetail = () => {
             </div>
             <div className='detail_box'>
                 {
-                    (Array.isArray(data.roles_and_resposibilities) && data.roles_and_resposibilities.length > 0) &&
+                    (Array.isArray(data.roles_and_responsibilities) && data.roles_and_responsibilities.length > 0) &&
                     <div className="roles_and_responsibilities_box">
                         <h3 className="sub_heading">My Roles and Responsibilities</h3>
                         <ul className="list">
                             {
 
-                                data.roles_and_resposibilities.map((item: string, index: number) => {
+                                data.roles_and_responsibilities.map((item: string, index: number) => {
 
                                     return (
                                         <li key={index} className="item">

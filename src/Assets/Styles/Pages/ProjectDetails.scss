@@ -90,10 +90,21 @@
             flex-direction: column;
             gap: $px_12;
 
+
             .item {
                 list-style: none;
                 font-size: $px_18;
                 line-height: 1;
+                border-bottom: $px_1 solid $clr_theme;
+                border-left: $px_1 solid $clr_theme;
+                border-radius: $px_12;
+                padding-left: $px_12;
+                padding-bottom: $px_12;
+                padding-top: $px_12;
+                padding-right: $px_8;
+                display: block;
+                width: 100%;
+                background-color: $clr_theme_op_1;
 
                 b {
                     font-family: source-pro-semibold;

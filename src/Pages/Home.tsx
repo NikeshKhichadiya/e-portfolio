@@ -11,7 +11,7 @@ const Home = () => {
                 HII, I'M NIKESH KHICHADIYA
             </h2>
             <p className="description">
-                A passionate and dedicated <strong>Full-stack Developer</strong> with a keen interest in crafting seamless, innovative, and user-centric digital solutions. With almost <strong>3 years</strong> of experience in the field, I thrive on bringing ideas to life through clean, efficient, and scalable code.
+                A passionate and dedicated <strong>Full-stack Developer</strong> with a keen interest in crafting seamless, innovative, and user-centric digital solutions. With almost <strong>5 years</strong> of experience in the field, I thrive on bringing ideas to life through clean, efficient, and scalable code.
             </p>
             <p className="button" onClick={() => dispatch(setRouterId('work'))}>WORK</p>
             <div onClick={() => dispatch(setRouterId('about'))}

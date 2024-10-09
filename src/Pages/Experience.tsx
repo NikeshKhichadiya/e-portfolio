@@ -32,7 +32,12 @@ const Experience = () => {
                                     <h3 className="time_period">{data[item].time_period || ''}</h3>
                                 </div>
                                 <p className="details"><b>Position <span>:</span></b><span>{data[item].position || ''}</span></p>
-                                <p className="details"><b>My Work <span>:</span></b><span>{data[item].work || ''}</span></p>
+                                <p className="details boxes"><b>Roles and Responsibilities
+                                    <span>:</span></b>
+                                    <span className="role_and_responsibility">
+                                        {Array.isArray(data[item].work) && data[item].work.map((item: string, index: number) => <span key={index}>{item}</span>)}
+                                    </span>
+                                </p>
                                 <p className="details boxes"><b>Tools and Technologies <span>:</span></b><span>{Array.isArray(data[item].technologies) && data[item].technologies.map((item: string, index: number) => <span key={index} className="tool_box">{item}</span>)}</span></p>
                                 <p className="details boxes"><b>Programming Languages <span>:</span></b><span>{Array.isArray(data[item].programming_languages) && data[item].programming_languages.map((item: string, index: number) => <span key={index} className="tool_box">{item}</span>)}</span></p>
                             </div>

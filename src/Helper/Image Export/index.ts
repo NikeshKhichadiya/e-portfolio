@@ -43,6 +43,21 @@ import vidyasaar_4 from '../../Assets/Images/Project screen short/vidyasaar scho
 import vidyasaar_5 from '../../Assets/Images/Project screen short/vidyasaar school/school_5.png';
 import vidyasaar_6 from '../../Assets/Images/Project screen short/vidyasaar school/school_6.png';
 import vidyasaar_7 from '../../Assets/Images/Project screen short/vidyasaar school/school_7.png';
+import b_1 from '../../Assets/Images/Project screen short/borrow/B-1.png';
+import b_2 from '../../Assets/Images/Project screen short/borrow/B-2.png';
+import b_3 from '../../Assets/Images/Project screen short/borrow/B-3.png';
+import b_4 from '../../Assets/Images/Project screen short/borrow/B-4.png';
+import b_5 from '../../Assets/Images/Project screen short/borrow/B-5.png';
+import b_6 from '../../Assets/Images/Project screen short/borrow/B-6.png';
+import b_7 from '../../Assets/Images/Project screen short/borrow/B-7.png';
+import ap_1 from '../../Assets/Images/Project screen short/artpixeel/ap_1.png';
+import ap_2 from '../../Assets/Images/Project screen short/artpixeel/ap_2.png';
+import ap_3 from '../../Assets/Images/Project screen short/artpixeel/ap_3.png';
+import ap_4 from '../../Assets/Images/Project screen short/artpixeel/ap_4.png';
+import ap_5 from '../../Assets/Images/Project screen short/artpixeel/ap_5.png';
+import ap_6 from '../../Assets/Images/Project screen short/artpixeel/ap_6.png';
+import ap_7 from '../../Assets/Images/Project screen short/artpixeel/ap_7.png';
+import ap_8 from '../../Assets/Images/Project screen short/artpixeel/ap_8.png';
 
 export const images = {
     aina: {
@@ -99,5 +114,24 @@ export const images = {
         vidyasaar_5,
         vidyasaar_6,
         vidyasaar_7,
+    },
+    borrow: {
+        b_1,
+        b_2,
+        b_3,
+        b_4,
+        b_5,
+        b_6,
+        b_7,
+    },
+    artpixeel: {
+        ap_1,
+        ap_2,
+        ap_3,
+        ap_4,
+        ap_5,
+        ap_6,
+        ap_7,
+        ap_8
     }
 }
