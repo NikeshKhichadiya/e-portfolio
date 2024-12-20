@@ -25,7 +25,6 @@ import jm_portfolio_2 from '../../Assets/Images/Project screen short/portfolio/j
 import jm_portfolio_3 from '../../Assets/Images/Project screen short/portfolio/jm_portfolio_3.png';
 import jm_portfolio_4 from '../../Assets/Images/Project screen short/portfolio/jm_portfolio_4.png';
 import hono_1 from '../../Assets/Images/Project screen short/hono/hono_1.png';
-import hono_2 from '../../Assets/Images/Project screen short/hono/hono_2.png';
 import hono_3 from '../../Assets/Images/Project screen short/hono/hono_3.png';
 import hono_4 from '../../Assets/Images/Project screen short/hono/hono_4.png';
 import hono_5 from '../../Assets/Images/Project screen short/hono/hono_5.png';
@@ -94,7 +93,6 @@ export const images = {
     },
     hono_pulse: {
         hono_1,
-        hono_2,
         hono_3,
         hono_4,
         hono_5,
